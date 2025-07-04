@@ -1,0 +1,106 @@
+@charset "utf-8";
+/*
+    Personal Bio Website
+    Author: Francisco Ventura
+    Date: 2/19/2025
+    Student ID: 0816694
+
+    Filename: styles.css
+*/
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F5E8DA;
+    color:#3E2C28;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    border-radius: 15px;
+    background-color: #2B2B2B;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #b8a076;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #A43D2E;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #A43D2E; 
+}
+
+h2 {
+    color: #A43D2E;
+    border-bottom: 3px solid #A43D2E;
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+/* About Me Section */
+.aboutme {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Image Styles */
+.aboutme img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.favoritemovie img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+}
+
+/* Blockquote Styles */
+blockquote {
+    font-style: italic;
+    text-align: center;
+    color: #4A726D;
+}
+
+blockquote::before {
+    content: "\201C"; 
+    font-size: 1.75em;
+    color: #3E2C28;
+}
+
+blockquote::after {
+    content: "\201D"; 
+    font-size: 1.75em;
+    color: #3E2C28;
+}
+
+/* Footer Styles */
+footer {
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px; 
+    font-size: 0.9em;
+}
